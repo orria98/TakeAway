@@ -1,0 +1,12 @@
+Marinara, 1090
+Margherita, 1990
+Diavola, 2090
+Parma, 2490
+Padrino, 2490
+Nduja, 2390
+Umberto, 2490
+Tartufo, 2490
+Vegana, 2290
+Monella, 2190
+Maradonna, 2290
+

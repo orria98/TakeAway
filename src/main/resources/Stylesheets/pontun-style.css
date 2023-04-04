@@ -1,0 +1,58 @@
+.root
+{
+    -fx-background-color: #304538;
+    -fx-border-color: #c29121;
+}
+
+.label
+{
+    -fx-text-fill: #c29121;
+    -fx-font-family: "ITC Garamond Std";
+}
+
+.matsedillview
+{
+    -fx-background-color: #304538;
+
+    -fx-control-inner-background: #304538;
+    -fx-control-inner-background-alt: derive(-fx-control-inner-background, 20%);
+    -fx-border-color: #c29121;
+    -fx-border-width: 3px;
+    -fx-font-family: "ITC Garamond Std";
+    -fx-font-size: 18;
+}
+
+.listview
+{
+    -fx-background-color: #304538;
+    -fx-control-inner-background: #304538;
+    -fx-control-inner-background-alt: derive(-fx-control-inner-background, 20%);
+    -fx-border-color: #c29121;
+    -fx-border-width: 3px;
+    -fx-text-fill: #c29121;
+    -fx-font-family: "ITC Garamond Std";
+    -fx-font-size: 18;
+}
+
+.button
+{
+    -fx-background-radius: 0;
+
+    -fx-background-color: #ebcebf;
+    -fx-text-fill: #c29121;
+
+    -fx-font-family: "ITC Garamond Std";
+    -fx-font-size: 16;
+}
+
+.textfield
+{
+    -fx-background-color: #fbf8f1;
+    -fx-font-family: "ITC Garamond Std";
+
+}
+
+
+
+
+

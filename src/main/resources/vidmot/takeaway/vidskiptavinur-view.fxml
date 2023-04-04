@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.ButtonType?>
+<?import javafx.scene.control.DialogPane?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<DialogPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="300.0" prefWidth="480.0" stylesheets="@../../Stylesheets/pontun-style.css" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1">
+    <expandableContent>
+        <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="200.0" prefWidth="320.0" />
+    </expandableContent>
+    <header>
+        <VBox alignment="BOTTOM_LEFT" prefHeight="245.0" prefWidth="480.0">
+            <children>
+                <Label text="Vinsamlegast skráðu inn nafn og heimilisfang">
+                    <font>
+                        <Font size="18.0" />
+                    </font>
+               <VBox.margin>
+                  <Insets left="10.0" />
+               </VBox.margin>
+                </Label>
+                <HBox alignment="CENTER_LEFT" prefHeight="70.0" prefWidth="480.0">
+                    <children>
+                        <Label prefHeight="23.0" prefWidth="110.0" text="Nafn:">
+                            <font>
+                                <Font size="18.0" />
+                            </font>
+                        </Label>
+                        <TextField fx:id="fxNafn" prefHeight="40.0" prefWidth="340.0" promptText="Skrifaðu nafnið" styleClass="textfield" stylesheets="@../../Stylesheets/pontun-style.css" />
+                    </children>
+                </HBox>
+                <HBox alignment="CENTER_LEFT" prefHeight="70.0" prefWidth="480.0">
+                    <children>
+                        <Label prefHeight="23.0" prefWidth="110.0" text="Heimilisfang:">
+                            <font>
+                                <Font size="18.0" />
+                            </font>
+                            <HBox.margin>
+                                <Insets />
+                            </HBox.margin>
+                        </Label>
+                        <TextField fx:id="fxHeimilisfang" prefHeight="40.0" prefWidth="340.0" promptText="Skrifaðu heimilisfangið" styleClass="textfield" stylesheets="@../../Stylesheets/pontun-style.css" />
+                    </children>
+                </HBox>
+            </children>
+        </VBox>
+    </header>
+    <buttonTypes>
+        <ButtonType fx:id="fxILagi" buttonData="OK_DONE" text="Í lagi" />
+        <ButtonType fx:id="fxHaettaVid" buttonData="CANCEL_CLOSE" text="Hætta við" />
+    </buttonTypes>
+</DialogPane>

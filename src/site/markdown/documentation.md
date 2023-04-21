@@ -25,6 +25,8 @@ Here below is the UML CLass Diagram for `TakeAway`
 ![](UML Diagram.png)
 An enum class is used in `View`, which defines a set of views in the application, each represented by a constant value. Each constant has a corresponding fileName value that represents the FXML file associated with the view.
 
+The Observer pattern is used to make sure the pricing is correct.
+Usage of ObservableList can be found in the `Matsedill`class.
 ### Running JAR
 You can either run the Jar file by opening the terminal, navigate to the root directory and running the command java -jar target/TakeAway-1.0-SNAPSHOT.jar or by running the RunJar.cmd file.
 The CreateJar.cmd contains the maven command to create the jar file
